@@ -1,0 +1,21 @@
+
+{
+  "name": "CONECTA+ | Educación digital",
+  "short_name": "CONECTA+",
+  "description": "Aprende sobre ciberseguridad, redes sociales, bienestar digital e inteligencia artificial.",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#f7f9fc",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
