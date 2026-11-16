@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="CONECTA+, aprende a navegar por el mundo digital de forma segura, responsable y consciente.">
+  <meta name="keywords" content="CONECTA+, educación digital, ciberseguridad, seguridad digital">
+  <title>CONECTA+ | Aprende y conecta</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #071426;
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      width: 100%;
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: #ffffff;
+    }
+
+    .logo span {
+      color: #38bdf8;
+    }
+
+    .tag {
+      color: #94a3b8;
+      font-size: 13px;
+    }
+
+    main {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 8%;
+    }
+
+    .hero {
+      max-width: 850px;
+      text-align: center;
+    }
+
+    .label {
+      display: inline-block;
+      padding: 9px 18px;
+      border: 1px solid #1e4970;
+      border-radius: 30px;
+      color: #7dd3fc;
+      background: #0c223b;
+      font-size: 13px;
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.08;
+      margin-bottom: 24px;
+      font-weight: 800;
+    }
+
+    h1 span {
+      color: #38bdf8;
+    }
+
+    .description {
+      max-width: 650px;
+      margin: 0 auto;
+      color: #a9bbd0;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 38px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 16px 27px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.2s;
+    }
+
+    .download {
+      background: #38bdf8;
+      color: #071426;
+    }
+
+    .download:hover {
+      background: #7dd3fc;
+      transform: translateY(-3px);
+    }
+
+    .enter {
+      border: 1px solid #45617e;
+      color: white;
+    }
+
+    .enter:hover {
+      background: #142b45;
+      transform: translateY(-3px);
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      max-width: 900px;
+      margin: 55px auto 0;
+    }
+
+    .feature {
+      padding: 23px 15px;
+      background: #10243b;
+      border: 1px solid #1c3855;
+      border-radius: 13px;
+    }
+
+    .feature h3 {
+      color: #7dd3fc;
+      margin-bottom: 9px;
+      font-size: 16px;
+    }
+
+    .feature p {
+      color: #9fb1c5;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #71869f;
+      font-size: 13px;
+      border-top: 1px solid #18304a;
+    }
+
+    @media (max-width: 650px) {
+      header {
+        padding: 22px 6%;
+      }
+
+      .tag {
+        display: none;
+      }
+
+      main {
+        padding: 55px 6%;
+      }
+
+      .description {
+        font-size: 16px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+      }
+
+      .button {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">CONECTA<span>+</span></div>
+    <div class="tag">EDUCACIÓN PARA EL MUNDO DIGITAL</div>
+  </header>
+
+  <main>
+    <section class="hero">
+
+      <div class="label">TU MUNDO DIGITAL COMIENZA AQUÍ</div>
+
+      <h1>
+        Aprende,<br>
+        conecta y <span>protege.</span>
+      </h1>
+
+      <p class="description">
+        Descubre cómo navegar por el mundo digital de manera segura,
+        responsable y consciente, aprende sobre ciberseguridad,
+        redes sociales, bienestar digital e inteligencia artificial.
+      </p>
+
+      <div class="buttons">
+
+        <a
+          class="button download"
+          href="https://github.com/conecta-plus/CONECTA-PLUS/raw/0f9bad4d515a63666c468fd5c8d887270b5d74c0/conecta-plus.apk.apk"
+          download>
+          ↓ Descargar APK
+        </a>
+
+        <a class="button enter" href="./index.html">
+          Entrar a CONECTA+ →
+        </a>
+
+      </div>
+
+      <div class="features">
+
+        <div class="feature">
+          <h3>Seguridad digital</h3>
+          <p>Aprende a proteger tu información y tu identidad en internet</p>
+        </div>
+
+        <div class="feature">
+          <h3>Aprendizaje interactivo</h3>
+          <p>Explora contenidos y actividades para aprender de forma práctica</p>
+        </div>
+
+        <div class="feature">
+          <h3>Uso responsable</h3>
+          <p>Desarrolla hábitos digitales saludables y conscientes</p>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    © 2026 CONECTA+ | Educación digital para todos
+  </footer>
+
+</body>
+</html>
